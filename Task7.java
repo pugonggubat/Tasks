@@ -23,7 +23,7 @@ public class Task7 {
 
         System.out.println("Enter the second number");
         Scanner input2 = new Scanner(System.in);
-        num2 = Integer.parseInt(input.nextLine());
+        num2 = Integer.parseInt(input2.nextLine());
 
         int sum=add(num1,num2);
         System.out.println("The sum of two numbers is " + sum);
