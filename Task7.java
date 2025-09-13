@@ -1,5 +1,20 @@
 import java.util.Scanner;
 public class Task7 {
+    static int add(int a, int b){
+        return a+b;
+    }
+
+    static int subtract(int a, int b){
+        return a-b;
+    }
+    static int multiply(int a, int b){
+        return a*b;
+    }
+    static float quotient(int a, int b){
+        float result=(float)a/b;
+        return (float)Math.round(result*100f)/100f;
+    }
+
     public static void main(String[] args) {
         int num1, num2;
         System.out.println("Enter the first number");
@@ -23,18 +38,6 @@ public class Task7 {
         System.out.println("The quotient of two numbers is " + quot);
     }
 
-    public static int add(int a, int b){
-        return a+b;
-    }
 
-    public static int subtract(int a, int b){
-        return a-b;
-    }
-    public static int multiply(int a, int b){
-        return a*b;
-    }
-    public static int quotient(int a, int b){
-        return a/b;
-    }
 
 }
