@@ -10,7 +10,7 @@ public class Task11 {
         int index = 1;
         for (Book b : books){
             System.out.println("Book" + index);
-            b.printBook();
+            System.out.println(b);
             index++;
 
         }
@@ -31,12 +31,11 @@ public class Task11 {
             this.price = p;
         }
 
-        public void printBook() {
-
-            System.out.println("Title: " + title);
-            System.out.println("Author: " +  author);
-            System.out.println("Year Published: " + yearPublished);
-            System.out.println("Price: $" + Double.toString(price));
+        public String toString() {
+            return "Title: " + title +
+                    "\nAuthor: " + author +
+                    "\nYear Published: " + yearPublished +
+                    "\nPrice: $" + price;
         }
     }
 
