@@ -1,7 +1,7 @@
 class Vehicle{
-    private String make;
-    private String model;
-    private int year;
+    private final String make;
+    private final String model;
+    final int  year;
 
     public Vehicle(String mk, String md, int yr){
         this.make = mk;
@@ -17,7 +17,7 @@ class Vehicle{
 }
 
 class Car extends Vehicle{
-    private int doors;
+    final int doors;
 
     public Car(String make, String model, int year,int doors){
         super(make,model,year);
