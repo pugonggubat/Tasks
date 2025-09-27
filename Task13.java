@@ -1,11 +1,3 @@
-public class Task13 {
-    public static void main(String[] args) {
-        Car c = new Car("Toyota","Camry",2022, 4);
-        c.displayDetails();
-    }
-
-}
-
 class Vehicle{
     private String make;
     private String model;
@@ -39,3 +31,13 @@ class Car extends Vehicle{
         System.out.println("Number of Doors: " + doors);
     }
 }
+
+
+public class Task13 {
+    public static void main(String[] args) {
+        Car c = new Car("Toyota","Camry",2022, 4);
+        c.displayDetails();
+    }
+
+}
+
