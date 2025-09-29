@@ -3,7 +3,7 @@ abstract class abstractClass{
     void concreteMethod(){
         System.out.println("This is a concrete method.");
     }
-}
+}//
 
 class B extends abstractClass{
     void abstractMethod(){
